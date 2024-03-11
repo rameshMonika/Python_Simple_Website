@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<body>
+    <h1>About </h1>
+    <p>I am {{name}}</p>
+    <p>my age is {{age}}</p>
+    <p>I graduated in {{qualification}}</p>
+    <table>
+        <tr>
+            <th>Country code</th>
+        </tr>
+        {% for item in li %}
+        <tr>
+            <td>{{item}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
